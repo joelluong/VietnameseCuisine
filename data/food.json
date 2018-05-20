@@ -1,0 +1,3 @@
+[{title:'Beef Pho', desc:'This aromatic rice-noodle soup made with beef is a staple in Vietnam. Serve with mint, basil and coriander on the side.', type:'Soup', region:'Hanoi', img: 'img/beefPho.jpg'},
+{title:'Spring Rolls', desc:'This is Authentic Vietnamese Spring Rolls.', type:'Fried food', region:'Saigon', img: 'img/springRolls.jpg'},
+{title:'Vermicelli with grilled pork.', desc:'Vermicelli with grilled pork.', type:'Vermicelli', region:'Saigon', img: 'img/bunThitNuong.jpg'}]
