@@ -1,3 +1,15 @@
-[{title:'Beef Pho', desc:'This aromatic rice-noodle soup made with beef is a staple in Vietnam. Serve with mint, basil and coriander on the side.', type:'Soup', region:'Hanoi', img: 'img/beefPho.jpg'},
-{title:'Spring Rolls', desc:'This is Authentic Vietnamese Spring Rolls.', type:'Fried food', region:'Saigon', img: 'img/springRolls.jpg'},
-{title:'Vermicelli with grilled pork.', desc:'Vermicelli with grilled pork.', type:'Vermicelli', region:'Saigon', img: 'img/bunThitNuong.jpg'}]
+[
+{"title":"Beef Pho", "shortDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "type":"pho", "img": "img/beefPho.jpg"},
+{"title":"Spring Rolls", "shortDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "type":"entree", "img": "img/springRolls.jpg"},
+{"title":"Vermicelli with grilled pork", "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "type":"vermicelli", "img": "img/bunThitNuong.jpg"},
+{"title": "Three colors drink", "shortDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "type":"drink", "img":"img/cheBaMau.jpg"},
+{"title": "Vietnamese coffee", "shortDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "type":"drink", "img":"img/coffee.JPG"},
+{"title": "Jack fruit smoothies", "shortDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "type":"drink", "img":"img/jackfruit.jpg"},
+{"title": "Durian smoothies", "shortDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "type":"drink", "img":"img/durian.jpg"},
+{"title": "Avocado smoothies", "shortDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "type":"drink", "img":"img/avocado.jpg"},
+{"title": "Chicken and Sweet Corn soup", "shortDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "type":"soup", "img":"img/supGa.jpg"},
+{"title": "Hot and Sour soup", "shortDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "type":"soup", "img":"img/supChuaCay.jpg"},
+{"title": "Combination soup", "shortDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "type":"soup", "img":"img/supThapCam.jpg"},
+{"title": "Won Ton Soup", "shortDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "type":"soup", "img":"img/supHoanhThanh.jpg"},
+{"title": "Chicken and mushroom soup", "shortDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "type":"soup", "img":"img/supNamGa.jpg"}
+]

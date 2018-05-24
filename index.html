@@ -31,10 +31,10 @@
                             <a class="active nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Cuisine</a>
+                            <a class="nav-link" href="cuisine.html">Cuisine</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="about.html">About</a>
                         </li>
                     </ul>
                 </div>
@@ -99,40 +99,16 @@
         </header>
 
         <!-- Page content -->
-        <div class="container">
+        <div class="container" data-ng-controller = "getCtrl">
             <h2 class="my-4">Welcome to Vietnamese Cuisine</h2>
 
             <div class="row">
-                <div class="col-md-4 col-12 mb-4">
+                <div class="col-md-4 col-12 mb-4" data-ng-repeat="dish in dishes" data-ng-show="$index<3">
                     <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="img/beefPho.jpg" alt=""></a>
-                        <h4 class="card-header">Beef Pho</h4>
+                        <a href="#"><img class="card-img-top" src="{{dish.img}}" alt="Food image"></a>
+                        <h4 class="card-header">{{dish.title}}</h4>
                         <div class="card-body">
-                            <p class="card-text">This aromatic rice-noodle soup made with beef is a staple in Vietnam. Serve with mint, basil and coriander on the side.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" class="btn btn-primary">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12 mb-4">
-                    <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="img/springRolls.jpg" alt=""></a>
-                        <h4 class="card-header">Spring Rolls</h4>
-                        <div class="card-body">
-                            <p class="card-text">This is Authentic Vietnamese Spring Rolls.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" class="btn btn-primary">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12 mb-4">
-                    <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="img/bunThitNuong.jpg" alt=""></a>
-                        <h4 class="card-header">Vermicelli</h4>
-                        <div class="card-body">
-                            <p class="card-text">Vermicelli with grilled pork.</p>
+                            <p class="card-text">{{dish.shortDesc}}</p>
                         </div>
                         <div class="card-footer">
                             <a href="#" class="btn btn-primary">Learn More</a>
@@ -158,5 +134,7 @@
         <script src="js/angular.min.js"></script>
         <!-- Custom JS-->
         <script src="js/custom.js"></script>
+
+        <script data-require="angular-ui-bootstrap@0.3.0" data-semver="0.3.0" src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.3.0.min.js"></script>
     </body>
 </html>
